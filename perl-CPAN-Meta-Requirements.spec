@@ -8,13 +8,13 @@
 Summary:	CPAN::Meta::Requirements - a set of version requirements for a CPAN dist
 Summary(pl.UTF-8):	CPAN::Meta::Requirements - zbiór wymaganych wersji dla dystrybucji CPAN
 Name:		perl-CPAN-Meta-Requirements
-Version:	2.122
+Version:	2.140
 Release:	1
-# same as perl
+# same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CPAN/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	37f62b1e5c254ddc852bac6872f053ba
+# Source0-md5:	8febe4f14f356e57fd1e2c342d56a64b
 URL:		http://search.cpan.org/dist/CPAN-Meta-Requirements/
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.17
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -23,7 +23,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-File-Temp
 BuildRequires:	perl-Scalar-List-Utils
 BuildRequires:	perl-Test-Simple >= 0.88
-BuildRequires:	perl-version >= 0.77
+BuildRequires:	perl-version >= 0.88
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
