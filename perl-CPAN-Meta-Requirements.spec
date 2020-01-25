@@ -4,7 +4,6 @@
 #
 %define		pdir	CPAN
 %define		pnam	Meta-Requirements
-%include	/usr/lib/rpm/macros.perl
 Summary:	CPAN::Meta::Requirements - a set of version requirements for a CPAN dist
 Summary(pl.UTF-8):	CPAN::Meta::Requirements - zbiór wymaganych wersji dla dystrybucji CPAN
 Name:		perl-CPAN-Meta-Requirements
