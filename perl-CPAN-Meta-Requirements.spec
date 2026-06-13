@@ -12,7 +12,7 @@ Release:	1
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	https://www.cpan.org/modules/by-module/CPAN/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/CPAN/RJBS/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	de2087fb52a5f7e197fac4c70acb62f9
 URL:		https://metacpan.org/dist/CPAN-Meta-Requirements
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.17
